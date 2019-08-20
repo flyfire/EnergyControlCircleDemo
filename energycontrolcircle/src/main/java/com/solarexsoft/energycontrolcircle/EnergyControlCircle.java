@@ -41,6 +41,7 @@ public class EnergyControlCircle extends View {
         mCenterCirclePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mCenterCirclePaint.setColor(Color.parseColor("#ffffff"));
         mCenterCirclePaint.setStrokeWidth(1f);
+        setPadding(0, 0, 0, 0);
     }
 
     @Override
